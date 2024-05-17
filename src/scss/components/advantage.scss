@@ -1,0 +1,30 @@
+.advantage {
+	min-height: 473px;
+	padding: 73px 0 85px;
+	background: rgb(246, 246, 246);;
+	&__promo {
+		color: rgb(13, 13, 13);
+		font-size: 30px;
+		font-weight: 700;
+		text-align: center;
+	}
+	&__wrapper {
+		margin-top: 65px;
+		display: flex;
+		justify-content: space-around;
+	}
+	&__item {
+		width: 277px;
+		color: rgb(13, 13, 13);
+		font-size: 14px;
+		font-weight: 300;
+		text-align: center;
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+		a {
+			color: #FF0000;
+		}
+	}
+}

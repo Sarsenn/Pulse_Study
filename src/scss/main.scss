@@ -1,0 +1,26 @@
+@import "components/reset";
+@import 'config/fonts';
+@import 'components/slick';
+@import 'components/promo';
+@import 'components/title';
+@import 'components/header';
+@import 'components/btn';
+@import 'components/advantage';
+@import 'components/consultation';
+@import 'components/form';
+@import 'components/carousel';
+* {
+	font-family: MuseoSansCyrl;
+}
+.container {
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+@import 'components/media';
