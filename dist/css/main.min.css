@@ -913,6 +913,18 @@ progress {
   width: 750px;
   margin: 0 auto;
 }
+.carousel .slick-prev, .carousel .slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -66px;
+  border: none;
+  background-color: #fff;
+}
+.carousel .slick-next {
+  right: -66px;
+  left: auto;
+}
 
 * {
   font-family: MuseoSansCyrl;
@@ -940,9 +952,30 @@ progress {
     font-size: 15px;
   }
 }
-@media (max-width: 840px) {
+@media (max-width: 880px) {
   .title {
     font-size: 32px;
+  }
+  .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slick-dots li {
+    list-style: none;
+    margin: 0 10px;
+    transition: 0.2s;
+  }
+  .slick-dots li button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border: 1px red;
+    background-color: grey;
+    border-radius: 50%;
+  }
+  .slick-dots .slick-active button {
+    background-color: red;
   }
   .promo__subheader {
     font-size: 17px;
@@ -955,6 +988,9 @@ progress {
   .title {
     font-size: 23px;
     line-height: 30px;
+  }
+  .carousel__inner {
+    width: 100%;
   }
 }
 @media (max-width: 420px) {
@@ -972,6 +1008,9 @@ progress {
   }
   .header__phone {
     font-size: 12px;
+  }
+  .slick-slide img {
+    width: 390px;
   }
 }
 /*# sourceMappingURL=main.min.css.map */

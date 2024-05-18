@@ -18,9 +18,36 @@
 }
 }
 
-@media(max-width: 840px)  {
+@media(max-width: 880px)  {
 .title {
 font-size: 32px;
+}
+
+.slick-dots {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	li {
+		list-style: none;
+		margin: 0 10px;
+		transition: 0.2s;
+		button {
+			font-size: 0;
+			width: 15px;
+			height: 15px;
+			border: 1px red;
+			background-color: grey;
+			border-radius: 50%;
+		}
+	}
+}
+.slick-dots {
+	.slick-active  {
+		button {
+			background-color: red;
+		}
+	}
+
 }
 
 .promo__subheader {
@@ -36,11 +63,11 @@ font-size: 32px;
 		font-size: 23px;
 		line-height: 30px;
 	}
+	.carousel__inner {
+		width: 100%;
+	}
 }
 
-@media (max-width: 480px) {
-
-}
 
 @media (max-width: 420px) {
 	.header__logo {
@@ -57,5 +84,10 @@ font-size: 32px;
 	}
 	.header__phone {
 		font-size: 12px;
+	}
+	.slick-slide {
+		img {
+			width: 390px;
+		}
 	}
 }
