@@ -1,0 +1,37 @@
+.review {
+	&__wrapper {
+		margin-top: 60px;
+		margin-bottom: 48px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__text {
+		width: 680px;
+	}
+	&__title {
+		
+		color: rgb(13, 13, 13);
+		font-size: 18px;
+		font-weight: 700;
+		text-align: left;
+		span {
+			display: block;
+			color: rgb(100, 100, 100);
+			font-size: 14px;
+			font-weight: 500;
+			text-align: left;
+		}
+	}
+	img {
+		width: 169px;
+		height: 169px;
+	}
+	&__descr {
+		margin-top: 10px;
+		color: rgb(85, 85, 85);
+		font-size: 14px;
+		font-weight: 300;
+		text-align: left;
+	}
+
+}
