@@ -22,7 +22,9 @@
 .title {
 font-size: 32px;
 }
-
+.review__text {
+	width: 530px;
+}
 .slick-dots {
 	display: flex;
 	align-items: center;
@@ -76,6 +78,16 @@ font-size: 32px;
 	.catalog__tab div {
 		font-size: 10px;
 	}
+	.review__text {
+		width: 410px;
+	}
+	.review__wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer__info {
+		width: 450px;
+	}
 }
 
 
@@ -99,5 +111,11 @@ font-size: 32px;
 		img {
 			width: 390px;
 		}
+	}
+	.review__text {
+		width: 400px;
+	}
+	.footer__info {
+		width: 420px;
 	}
 }

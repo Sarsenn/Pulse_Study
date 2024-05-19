@@ -836,6 +836,10 @@ progress {
   color: white;
   font-weight: 500;
 }
+.button:hover {
+  box-shadow: 3px 3px 20px rgb(199, 1, 1);
+  border: none;
+}
 .button_main {
   width: 300px;
   height: 50px;
@@ -1172,6 +1176,23 @@ progress {
   text-decoration: none;
   margin-bottom: 38px;
 }
+.footer .footer__scocial-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 52px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  margin: 0 15px;
+}
+.footer .footer__scocial-item img {
+  height: 27px;
+}
+.footer .footer__scocial {
+  display: flex;
+  justify-content: center;
+}
 
 * {
   font-family: MuseoSansCyrl;
@@ -1202,6 +1223,9 @@ progress {
 @media (max-width: 880px) {
   .title {
     font-size: 32px;
+  }
+  .review__text {
+    width: 530px;
   }
   .slick-dots {
     display: flex;
@@ -1248,6 +1272,16 @@ progress {
   .catalog__tab div {
     font-size: 10px;
   }
+  .review__text {
+    width: 410px;
+  }
+  .review__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__info {
+    width: 450px;
+  }
 }
 @media (max-width: 420px) {
   .header__logo {
@@ -1267,6 +1301,12 @@ progress {
   }
   .slick-slide img {
     width: 390px;
+  }
+  .review__text {
+    width: 400px;
+  }
+  .footer__info {
+    width: 420px;
   }
 }
 /*# sourceMappingURL=main.min.css.map */

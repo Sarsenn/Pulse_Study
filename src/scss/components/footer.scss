@@ -29,4 +29,22 @@
 	text-decoration: none;
 	margin-bottom: 38px;
 }
+
+.footer__scocial-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 52px;
+	border: 2px solid #fff;
+	border-radius: 100%;
+	margin: 0 15px;
+	img {
+		height: 27px;
+	}
+}
+.footer__scocial {
+	display: flex;
+	justify-content: center;
+}
 }
