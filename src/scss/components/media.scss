@@ -88,6 +88,9 @@ font-size: 32px;
 	.footer__info {
 		width: 450px;
 	}
+	.overlay .modal__close {
+		right: -23px;
+	}
 }
 
 
@@ -116,6 +119,14 @@ font-size: 32px;
 		width: 400px;
 	}
 	.footer__info {
-		width: 420px;
+		width: 418px;
+	}
+
+	.overlay .modal {
+		width: 360px;
+		padding: 20px;
+	}
+	.overlay .modal__close {
+		right: -23px;
 	}
 }

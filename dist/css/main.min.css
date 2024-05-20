@@ -918,6 +918,9 @@ progress {
 .feed-form input:nth-child(3) {
   margin-bottom: 20px;
 }
+.feed-form input_mt25 {
+  margin-top: 25px;
+}
 
 .carousel {
   padding: 81px 0;
@@ -1194,6 +1197,56 @@ progress {
   justify-content: center;
 }
 
+.overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.56);
+}
+.overlay .modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 382px;
+  min-height: 402px;
+  background: rgb(242, 242, 242);
+  border-radius: 3%;
+  padding: 38px 40px 40px 40px;
+}
+.overlay .modal__close {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 0;
+  right: -40px;
+  line-height: 21px;
+  font-size: 41px;
+  color: red;
+  cursor: pointer;
+}
+.overlay .modal__subtitle {
+  color: rgb(13, 13, 13);
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+.overlay .modal__descr {
+  color: rgb(13, 13, 13);
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+.overlay .modal_mini {
+  min-height: 140px;
+}
+
+#consultation, #order, #thanks {
+  display: none;
+}
+
 * {
   font-family: MuseoSansCyrl;
 }
@@ -1282,6 +1335,9 @@ progress {
   .footer__info {
     width: 450px;
   }
+  .overlay .modal__close {
+    right: -23px;
+  }
 }
 @media (max-width: 420px) {
   .header__logo {
@@ -1306,7 +1362,14 @@ progress {
     width: 400px;
   }
   .footer__info {
-    width: 420px;
+    width: 418px;
+  }
+  .overlay .modal {
+    width: 360px;
+    padding: 20px;
+  }
+  .overlay .modal__close {
+    right: -23px;
   }
 }
 /*# sourceMappingURL=main.min.css.map */
