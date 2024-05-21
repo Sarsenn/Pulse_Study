@@ -898,6 +898,15 @@ progress {
   font-weight: 500;
   text-align: left;
 }
+.consultation .error {
+  border: 1px solid red;
+}
+.consultation label.error {
+  color: #fff;
+  border: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
 
 .feed-form {
   margin-top: 36px;
@@ -1242,9 +1251,21 @@ progress {
 .overlay .modal_mini {
   min-height: 140px;
 }
+.overlay .modal .error {
+  border: 1px solid red;
+}
+.overlay .modal label.error {
+  border: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
 
 #consultation, #order, #thanks {
   display: none;
+}
+
+.pageup {
+  display: block;
 }
 
 * {
