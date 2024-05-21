@@ -1,4 +1,5 @@
 @import "components/reset";
+@import 'components/animation.scss';
 @import 'config/fonts';
 @import 'components/slick';
 @import 'components/promo';
@@ -14,6 +15,7 @@
 @import 'components/footer';
 @import 'components/modal';
 @import 'components/pageup';
+
 * {
 	font-family: MuseoSansCyrl;
 }

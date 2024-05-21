@@ -556,6 +556,17 @@ progress {
 }
 
 
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
 @font-face {
   font-family: MuseoSansCyrl;
   font-display: swap;
@@ -885,6 +896,15 @@ progress {
 }
 .advantage__item a {
   color: #FF0000;
+}
+.advantage .advantage__icon {
+  animation: heartbeat 2s ease infinite;
+  /* 	animation-duration: 2s;
+  	animation-timing-function: ease;
+  	animation-iteration-count: infinite; */
+}
+.advantage .advantage__icon:hover {
+  animation-play-state: paused;
 }
 
 .consultation {

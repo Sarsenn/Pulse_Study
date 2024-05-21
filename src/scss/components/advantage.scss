@@ -27,4 +27,13 @@
 			color: #FF0000;
 		}
 	}
+	.advantage__icon {
+		animation: heartbeat 2s ease infinite;
+	/* 	animation-duration: 2s;
+		animation-timing-function: ease;
+		animation-iteration-count: infinite; */
+		&:hover {
+			animation-play-state: paused;
+		}
+	}
 }
